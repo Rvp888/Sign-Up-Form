@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url("https://th.bing.com/th/id/OIP.0rmX5iNBlYF_abxs7rSCcgHaC3?w=307&h=135&c=7&r=0&o=5&dpr=1.25&pid=1.7");
+    background-size: 100% 100%;   
+}
+
+form{
+    background-color: rgba(187, 248, 146, 0.945);
+    margin: 50px 520px 50px;
+    padding: 30px;
+    width:fit-content;
+    color:rgb(26, 26, 85)
+}
+
+.Heading{
+    color: rgb(251, 250, 253);
+    text-align: center;
+    margin: 50px 300px 50px;
+    font-size: 45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}   
+input[type=text],input[type=email],input[type=password]{
+    font-size: 12px;
+    margin: 5px 2px 5px;
+    background-color: rgba(105, 105, 105, 0.336);
+    border: none;
+    padding:10px;
+    width:350px
+}
+input[type=checkbox]{
+    margin:1px 10px 1px 1px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    color: white;
+    background-color: rgb(9, 149, 6) ;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgba(247, 21, 5, 0.873);
+    opacity:0.7;
+}
+hr{
+    margin-bottom: 25px;
+    border:1px solid rgba(105, 105, 105, 0.336);
+}
